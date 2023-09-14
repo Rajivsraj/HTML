@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title> Form </title>
+	</head>
+<body>
+
+<form>
+		Name: <input type="text" required multiple name="name" list="fvs"><br><br>
+		<select name="fv" id="fvs">
+			<optgroup label="Fruits">
+				<option> Mango </option>
+				<option> Apple </option>
+				<option> Orange </option>	
+			</optgroup>
+			<optgroup  label="Vegitable">
+				<option> Tomato </option>
+				<option> Potato </option>
+				<option> Ladyfinger </option>
+			</optgroup>
+		</select>
+		<br><br>
+		<textarea rows="10" cols="50" name="cmt"></textarea><br><br>
+		
+		<select multiple name="mul">
+			<option> Mango </option>
+			<option> Apple </option>
+			<option> Orange </option>	
+			<option> Tomato </option>
+			<option> Potato </option>
+			<option> Ladyfinger </option>
+		</select>
+		<br><br>
+		
+		<input list="product" id="ice-cream-choice" name="ice-cream-choice">
+		<datalist id="product">
+			<option value="Chocolate">
+			<option value="Coconut">
+			<option value="Mint">
+			<option value="Strawberry">
+			<option value="Vanilla">
+		</datalist>
+		<br><br>
+		<button type="submit"> Register </button>
+</form>
+
+
+
+</body>
+</html>
